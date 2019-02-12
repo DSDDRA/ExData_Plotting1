@@ -50,7 +50,7 @@
 # Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.
        #
        png("plot1.png", width= 480, height = 480)      
-       hist(newdata$Global_active_power,col="red", xlab="Global active power (kilowatts)",main = "Global Active Power")
+       hist(newdata$Global_active_power,col="red", xlab="Global Active Power (kilowatts)",main = "Global Active Power")
        dev.off()
 # if wanted... pdf would be as follows...
 #dev.copy2pdf(file="Plot1.pdf", width = 7, height = 5)
