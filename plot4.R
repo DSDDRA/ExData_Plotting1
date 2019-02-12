@@ -96,7 +96,7 @@
        
        # Top Right plot
        plot(newdata$ptime, newdata$Voltage,type ="l",
-            xlab="datatime", ylab="Voltage")
+            xlab="datetime", ylab="Voltage")
        
        # Bottom Left plot
        plot(newdata$ptime, newdata$Sub_metering_1,type ="l",
